@@ -1,0 +1,17 @@
+/* src/styles/Contador.css */
+.contador {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .contador h1 {
+    color: #333;
+  }
+  
+  .contador button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

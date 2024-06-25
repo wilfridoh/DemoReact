@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import NuevoComponente from './components/NuevoComponente';
+import Contador from './components/Contador';
+import Reloj from './components/Reloj';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Reloj/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Editar <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -17,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <NuevoComponente titulo="Hola, Mundo!" descripcion="Este es un nuevo componente en React." />
+
+        <Contador/>
+
       </header>
     </div>
   );

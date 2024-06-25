@@ -1,0 +1,39 @@
+/* src/styles/Reloj.css
+.reloj {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .reloj h1 {
+    color: #333;
+  }
+  
+  .reloj p {
+    font-size: 18px;
+    color: #666;
+  }
+   */
+
+   /* src/styles/Reloj.css */
+.reloj {
+    position: fixed; /* Fija el componente en la pantalla */
+    top: 0;          /* Posición en la parte superior */
+    left: 0;         /* Posición en la parte izquierda */
+    background-color: #fff; /* Fondo blanco para asegurar la legibilidad */
+    padding: 20px;   /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el efecto visual */
+    border-bottom-right-radius: 8px; /* Redondear esquina inferior derecha */
+  }
+  
+  .reloj h1 {
+    color: #333;
+    margin: 0; /* Quitar márgenes para evitar desplazamiento */
+    font-size: 16px; /* Reducir el tamaño del texto */
+  }
+  
+  .reloj p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0; /* Espaciado entre párrafos */
+  }
+  
